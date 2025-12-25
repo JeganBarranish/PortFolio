@@ -15,8 +15,7 @@ This portfolio features:
 This project is built with:
 
 - **Vite** - Fast build tool and dev server
-- **TypeScript** - Type-safe JavaScript
-- **React** - UI library
+- **React** - UI library with JavaScript
 - **shadcn-ui** - Beautiful component library
 - **Tailwind CSS** - Utility-first CSS framework
 - **Framer Motion** - Animation library
