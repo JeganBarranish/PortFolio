@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Heart, Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -53,9 +53,7 @@ const Footer = () => {
           className="mt-8 pt-8 border-t border-border text-center"
         >
           <p className="text-sm text-muted-foreground flex items-center justify-center gap-1">
-            © {currentYear} Jegan Barranish. Built with
-            <Heart className="w-4 h-4 text-primary fill-primary" />
-            using React & Tailwind CSS
+            © {currentYear} Jegan Barranish. Built with Passion
           </p>
         </motion.div>
       </div>
