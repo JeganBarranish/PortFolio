@@ -1,13 +1,7 @@
 {
   "name": "Jegan Barranish Portfolio",
   "short_name": "JB Portfolio",
-  "icons": [
-    {
-      "src": "/favicon-jb.svg",
-      "sizes": "any",
-      "type": "image/svg+xml"
-    }
-  ],
+  "icons": [],
   "theme_color": "#0d1117",
   "background_color": "#0d1117",
   "display": "standalone"
