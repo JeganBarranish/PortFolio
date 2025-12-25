@@ -75,6 +75,17 @@ src/
 - **Education** - Academic background
 - **Contact** - Get in touch form
 
+## Deployment
+
+This portfolio is deployed and live at: **[Your Vercel/Netlify URL]**
+
+### Quick Deploy to Vercel:
+1. Go to [vercel.com](https://vercel.com) and sign in with GitHub
+2. Click "Add New Project"
+3. Import repository: `JeganBarranish/PortFolio`
+4. Vercel auto-detects Vite - just click "Deploy"
+5. Your site will be live in 1-2 minutes!
+
 ## License
 
 © 2024 Jegan Barranish. All rights reserved.
