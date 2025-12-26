@@ -6,15 +6,6 @@
   "framework": "vite",
   "headers": [
     {
-      "source": "/favicon-jb.svg",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "no-cache, no-store, must-revalidate"
-        }
-      ]
-    },
-    {
       "source": "/favicon.ico",
       "headers": [
         {
