@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jegan Barranish | Full Stack Developer & Design Engineer</title>
+    <script>
+      // GitHub Pages SPA redirect for base path /PortFolio/
+      var pathSegmentsToKeep = 1; // Keep /PortFolio
+      var l = window.location;
+      var basePath = '/PortFolio';
+      
+      // If we're already on the base path, redirect to index.html
+      if (l.pathname.startsWith(basePath)) {
+        var path = l.pathname.replace(basePath, '') || '/';
+        var search = l.search.replace(/^\?/, '');
+        var hash = l.hash;
+        
+        // Redirect to index.html with the path as a query parameter
+        var redirectPath = basePath + '/index.html';
+        if (path !== '/') {
+          redirectPath += '?/' + path.replace(/^\//, '').replace(/&/g, '~and~');
+          if (search) {
+            redirectPath += '&' + search.replace(/&/g, '~and~');
+          }
+        } else if (search) {
+          redirectPath += '?/' + search.replace(/&/g, '~and~');
+        }
+        if (hash) {
+          redirectPath += hash;
+        }
+        
+        window.location.replace(redirectPath);
+      } else {
+        // Not on base path, redirect to base path
+        window.location.replace(basePath + '/index.html');
+      }
+    </script>
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+</html>
+
