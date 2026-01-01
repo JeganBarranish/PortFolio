@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { ExternalLink, Github, Ambulance, Video } from "lucide-react";
+import { ExternalLink, Github, Ambulance, Video, ShoppingCart } from "lucide-react";
 import { Button } from "./ui/button";
 
 const projects = [
@@ -37,6 +37,27 @@ const projects = [
     color: "from-blue-500/20 to-cyan-500/20",
     borderColor: "hover:border-blue-500/50",
     githubUrl: "https://github.com/jegan-barranish",
+    liveUrl: "#",
+  },
+  {
+    title: "Furnify - Full-Stack Furniture Store",
+    description: "A modern, scalable full-stack web application for a furniture store with user authentication, dashboard, and task management capabilities.",
+    icon: ShoppingCart,
+    period: "2025",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "Material-UI", "JWT", "bcrypt"],
+    features: [
+      "JWT-based user authentication (Sign Up, Login, Logout)",
+      "Protected routes with React Router",
+      "User dashboard with profile management",
+      "Full CRUD task management system",
+      "Search & filter functionality for tasks",
+      "Admin panel to view all users",
+      "RESTful API with Express.js",
+      "MongoDB database integration",
+    ],
+    color: "from-purple-500/20 to-pink-500/20",
+    borderColor: "hover:border-purple-500/50",
+    githubUrl: "https://github.com/JeganBarranish/PortFolio",
     liveUrl: "#",
   },
 ];
